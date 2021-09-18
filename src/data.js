@@ -12,7 +12,12 @@ const data = {
         price: '7000',
         image: 'https://s4.bukalapak.com/img/4577845591/w-1000/INDOMIE_GORENG_SELERAKU_MIE_INSTANT__MMA_112_.jpg',
       },
- 
+      {
+        id: '3',
+        name: 'Kwetiaw',
+        price: 10000,
+        image: 'https://i.ytimg.com/vi/ZI6qVUk2pZQ/maxresdefault.jpg',
+      },
       {
         id: '4',
         name: 'Nasi Ayam Bali',
