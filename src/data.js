@@ -9,7 +9,7 @@ const data = {
       {
         id: '2',
         name: 'Mie Goreng',
-        price: '7000',
+        price: 7000,
         image: 'https://s4.bukalapak.com/img/4577845591/w-1000/INDOMIE_GORENG_SELERAKU_MIE_INSTANT__MMA_112_.jpg',
       },
       {
