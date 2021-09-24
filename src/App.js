@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Basket from './components/Basket';
 import data from './data';
+import File from './file';
 import { useState } from 'react';
 function App() {
   const { products } = data;
@@ -41,6 +42,7 @@ function App() {
           onRemove={onRemove}
         ></Basket>
       </div>
+      <File/>
     </div>
   );
 }
