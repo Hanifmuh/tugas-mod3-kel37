@@ -1,29 +1,29 @@
 {
-    "meja": [
+  "meja": [
+      {
+          "nama": "Meja Karaoke",
+          "nomor": "1",
+          "kategori": "Karaoke"
+        },
         {
-            "nama": "Meja Karaoke",
-            "nomor": "1",
-            "kategori": "Karaoke"
-          },
-          {
-            "nama": "Meja Karaoke",
-            "nomor": "2",
-            "kategori": "Lesehan"
-          },
-          {
-            "nama": "Meja Karaoke",
-            "nomor": "3",
-            "kategori": "Rapat"
-          },
-          {
-            "nama": "Meja Karaoke",
-            "nomor": "4",
-            "kategori": "Bundar"
-          },
-          {
-            "nama": "Meja Karaoke",
-            "nomor": "5",
-            "kategori": "Chill and Play"
-          }
-    ]
-  }
+          "nama": "Meja Karaoke",
+          "nomor": "2",
+          "kategori": "Lesehan"
+        },
+        {
+          "nama": "Meja Karaoke",
+          "nomor": "3",
+          "kategori": "Rapat"
+        },
+        {
+          "nama": "Meja Karaoke",
+          "nomor": "4",
+          "kategori": "Bundar"
+        },
+        {
+          "nama": "Meja Karaoke",
+          "nomor": "5",
+          "kategori": "Chill and Play"
+        }
+  ]
+}
