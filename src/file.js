@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import axios from "axios";
 import { Grid, Card, CardActionArea, CardContent, Typography } from "@material-ui/core";
 
-export default class tekkom extends Component {
+export default class list extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      tekkom: [],
+      list: [],
       visible: false,
     };
   }
