@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { Grid, Card, CardActionArea, CardContent, Typography, AppBar } from "@material-ui/core";
+import { Grid, Card, CardActionArea, CardContent, Typography } from "@material-ui/core";
 
 export default class tekkom extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ export default class tekkom extends Component {
   }
 
   handleButton = (table) => {
-    alert(table + "Available, Silahkan Memesan");
+    alert(table + " Available, Silahkan Memesan");
   };
 
   componentDidMount() {
@@ -36,10 +36,11 @@ export default class tekkom extends Component {
 
   render() {
     return (
-      <div style={{ marginTop: 20 }}>
-        <AppBar style={{ padding: "10px", marginBottom: "100px" }}>
-          <Typography style={{ margin: "auto" }}>List Nama</Typography>
-        </AppBar>
+      <div>
+         <main className="block">
+
+          <h1 style={{ textAlign: "center" }}>List Tempat</h1>
+
 
         <Grid
           container
@@ -65,6 +66,7 @@ export default class tekkom extends Component {
             );
           })}
         </Grid>
+        </main>
       </div>
     );
   }
