@@ -11,14 +11,14 @@ export default class tekkom extends Component {
     };
   }
 
-  handleButton = (alamat) => {
-    alert("Alamat: " + alamat);
+  handleButton = (table) => {
+    alert(table + "Available, Silahkan Memesan");
   };
 
   componentDidMount() {
     axios({
       method: "get",
-      url: "https://jsonplaceholder.typicode.com/users",
+      url: "http://localhost:3000/meja",
       headers: {
         accept: "/",
       },
@@ -49,15 +49,15 @@ export default class tekkom extends Component {
         >
           {this.state.tekkom.map((results, index) => {
             return (
-              <Grid item key={results.name} md={3}>
+              
+              <Grid item key={results.nama} md={3}>
                 <Card>
                   <CardActionArea
-                    onClick={() => this.handleButton(results.address.city)}
+                    onClick={() => this.handleButton(results.nama)}
                   >
-                    <CardContent style={{ backgroundColor: "cfe8fc" }}>
-                      <Typography>Name: {results.name}</Typography>
-                      <Typography>Username: {results.username}</Typography>
-                      <Typography>Email: {results.email}</Typography>
+                    <CardContent style={{ backgroundColor: "F0C040" }}>
+                      <Typography>Nomor Meja: {results.nomor}</Typography>
+                      <Typography>Kategori: {results.kategori}</Typography>
                     </CardContent>
                   </CardActionArea>
                 </Card>
