@@ -3,32 +3,27 @@
         {
             "nama": "Meja Karaoke",
             "nomor": "1",
-            "kategori": "Karaoke",
-            
+            "kategori": "Karaoke"
           },
           {
             "nama": "Meja Karaoke",
             "nomor": "2",
-            "kategori": "Lesehan",
-            
+            "kategori": "Lesehan"
           },
           {
             "nama": "Meja Karaoke",
             "nomor": "3",
-            "kategori": "Rapat",
-            
+            "kategori": "Rapat"
           },
           {
             "nama": "Meja Karaoke",
             "nomor": "4",
-            "kategori": "Bundar",
-           
+            "kategori": "Bundar"
           },
           {
             "nama": "Meja Karaoke",
             "nomor": "5",
-            "kategori": "Chill and Play",
-            
+            "kategori": "Chill and Play"
           }
     ]
   }
